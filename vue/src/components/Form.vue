@@ -1,9 +1,9 @@
 <template>
     <div class="form-todo form-group">
         <p>
-            <input type="text" placeholder="Digite seu to do" name="name" class="form-control" v-model="name"/>
+            <input type="text" placeholder="Type your to do" name="name" class="form-control" v-model="name"/>
         </p>
-        <button v-on:click="addTodo" type="submit" class="btn btn-primary">Adicionar</button>
+        <button v-on:click="addTodo" type="submit" class="btn btn-primary">Add</button>
     </div>
 </template>
 
